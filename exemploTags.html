@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo tags HTML</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+    <h1 id="titulo1">Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6 id="titulo6">Título 6</h6>
+
+    <h1>Parágrafo</h1>
+    <p>Parágrafo 1: texto bem longo para encher linguiça tem que ter o lorem ipsum dolor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet lectus et ante mollis sodales at quis velit. Aenean viverra consequat orci, id lacinia libero malesuada non. Mauris congue nisl in elit porta imperdiet. Etiam vitae mollis risus, at eleifend est. Etiam quam ipsum, ullamcorper sit amet nulla eu, lacinia sodales tellus. Donec in tortor gravida mi volutpat consectetur iaculis egestas dui. Nam mattis luctus consectetur. In hac habitasse platea dictumst. Phasellus sit amet elit massa. Etiam finibus, purus sed interdum hendrerit, leo purus dignissim metus, sed consectetur tortor enim in leo. </p>
+    <p id="paragrafo2">Parágrafo 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Aenean sit amet lectus et ante mollis sodales at quis velit. <br/> Aenean viverra consequat orci, id lacinia libero malesuada non. <br/> Mauris congue nisl in elit porta imperdiet. <br/> Etiam vitae mollis risus, at eleifend est. <br/> Etiam quam ipsum, ullamcorper sit amet nulla eu, lacinia sodales tellus. <br/> Donec in tortor gravida mi volutpat consectetur iaculis egestas dui. Nam mattis luctus consectetur. <br/> In hac habitasse platea dictumst. <br/> Phasellus sit amet elit massa. <br/> Etiam finibus, purus sed interdum hendrerit, leo purus dignissim metus, sed consectetur tortor enim in leo. </p>
+    <hr />
+    <p>Parágrafo 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> Aenean sit amet lectus et ante mollis sodales at quis velit. <br/> Aenean viverra consequat orci, id lacinia libero malesuada non. <br/> Mauris congue nisl in elit porta imperdiet. <br/> Etiam vitae mollis risus, at eleifend est. <br/> Etiam quam ipsum, ullamcorper sit amet nulla eu, lacinia sodales tellus. <br/> Donec in tortor gravida mi volutpat consectetur iaculis egestas dui. Nam mattis luctus consectetur. <br/> In hac habitasse platea dictumst. <br/> Phasellus sit amet elit massa. <br/> Etiam finibus, purus sed interdum hendrerit, leo purus dignissim metus, sed consectetur tortor enim in leo. </p>
+
+
+    <h1>Listas</h1>
+    <h2>Listas não ordenadas (Unordered List)</h2>
+    <ul>
+        <li>Item da Lista (List Item) 1</li>
+        <li>Item da Lista (List Item) 2</li>
+        <li>Item da Lista (List Item) 3</li>
+    </ul>
+
+    <h2>Lista ordenada (Ordered list):</h2>
+    <ol>
+        <li>Item da Lista (List Item) 1</li>
+        <li>Item da Lista (List Item) 2</li>
+        <li>Item da Lista (List Item) 3</li>
+    </ol>
+
+    <hr/>
+
+    <h1>Outras tags:</h1>
+    <p><a href="http://www.google.com">Link para o Google</a></p>
+    <p><a href="#titulo1">Título 1</a></p>
+    <p><a href="#titulo6">Título 6</a></p>
+
+    <p id="mafagafo">
+        <img src="img/mafagafo.jpg" />
+        <br/>
+        Foto de um mafagafo
+    </p>
+
+    <hr/>
+
+    <p><a href="#titulo6"><img src="img/mafagafo.jpg" height="100px"/></a></p>
+
+    <h1>Tabelas</h1>
+    <table border="1">
+        <caption>Pessoas</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Bairro</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>José</td>
+                <td>Bela Vista</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Jardim Atlântico</td>
+            </tr>
+        </tbody>
+        <tfooter>
+            <tr>
+                <td colspan="2">Rodapé</td>
+            </tr>
+        </tfooter>
+    </table>
+    <br/><br/><br/> 
+    <table border="1">
+        <tr>
+            <td rowspan="2">Célula 1</td>
+            <td>Célula 2</td>
+        </tr>
+        <tr>
+            <!-- Célula 3 -->
+            <td>Célula 4</td>
+        </tr>
+    </table>
+
+    <br/><br/><br/><br/>
+
+    <form>
+        <input type="text" size="10" maxlength="5" value="123.123.123" />
+        <input type="text" size="10" maxlength="5" placeholder="Digite o CPF" />
+        <input type="text" size="10" disabled />
+        <input type="password" size="20" />
+        <label for="opcao1">Opção 1</label><input type="checkbox" id="opcao1" />
+        <input type="checkbox" id="opcao2" /><label for="opcao2">Opção 2</label>
+        <input type="checkbox" id="opcao3" disabled checked /><label for="opcao3">Opção 3</label>
+
+        <br/><br/><br/><br/>
+        <label for="radio11"><img src="facebook-icon.png" width="16"/> Radio Opção 1.1 </label><input type="radio" id="radio11" name="grupo1" />
+        <label for="radio12">Radio Opção 1.2</label><input type="radio" id="radio12" name="grupo1" />
+        <br/>
+        <input type="radio" id="radioopcao1" name="grupo2" /><label for="radioopcao1">Radio Opção 2.1</label>
+        <input type="radio" id="radioopcao2" name="grupo2" /><label for="radioopcao2">Radio Opção 2.2</label>
+        <input type="radio" id="radioopcao3" name="grupo2" /><label for="radioopcao3">Radio Opção 2.3</label>
+
+        <br/><br/><br/>
+        <fieldset>
+            <legend>Produtos</legend>
+            <select>
+                <option></option>
+                <option value="1">Cerveja</option>
+                <option value="2">Cachaça</option>
+                <option value="3">Vodka</option>
+                <option value="4">Uísque</option>
+                <option value="5">Água mineral</option>
+            </select>
+
+            <br/><br/><br/>
+            <select size="5">
+                <option></option>
+                <option value="1">Doritos</option>
+                <option value="2">Cebolitos</option>
+                <option value="3">Fandangos</option>
+                <option value="4">Cheetos</option>
+                <option value="5">Ruffles</option>
+                <option value="6">Baconzitos</option>
+            </select>
+        </fieldset>
+
+        <br/><br/><br/>
+        <textarea placeholder="Digite observações" rows="10" cols="60" style="resize:none" ></textarea>
+
+        <br/>
+        <input type="reset" />
+        <br/>
+        <input type="submit" action="exemploTags.html" method="POST" value="Enviar opções selecionadas deste formulário" />
+        <br/>
+        <button onclick="">Botão</button></a>
+    </form>
+
+    <br/><br/><br/><br/>
+
+    <div>Exemplo da tag DIV</div>
+    <div>Segundo exemplo da tag DIV</div>
+    <div>Terceiro exemplo da tag DIV</div>
+
+    <p>
+        <span>Exemplo da tag SPAN.</span>
+        <span class="fimdesemana">Segundo exemplo da tag SPAN.</span>
+        <span class="fimdesemana">Terceiro exemplo da tag SPAN.</span>
+    </p>
+
+    <p>
+        Exemplo de texto em um parágrafo.
+        <span style="color: #01aaaa;">Com a tag SPAN muda-se a cor.</span>
+        <span style="font-family: Arial, Helvetica, sans-serif;">Com a tag SPAN muda-se a fonte.</span>
+        <span id="sexta">Texto com outra formatação.</span>
+        Fora da da tag SPAN.
+    </p>
+
+    <div>
+        <span>Texto do span 1 dentro da div.</span>
+        <span>Texto do span 2 dentro da div.</span>
+        <span>Texto do span 3 dentro da div.</span>
+    </div>
+
+    <div id="noticias">
+        <span>Texto do span 1 dentro da div.</span>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+    </div>
+
+    <div id="destaque">
+        <span>Texto do span 1 dentro da div.</span>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+        <br/>
+        <ol id="esportes">
+            <li>elemento a</li>
+            <li>elemento b</li>
+            <li>elemento c</li>
+        </ol>
+        <ol id="novelas">
+            <li>elemento a</li>
+            <li>elemento b</li>
+            <li>elemento c</li>
+        </ol>
+    </div>
+
+
+    <ul id="lista">
+        <li>Item da Lista 1</li>
+        <li><a href="#">Item da Lista 2</a></li>
+        <li>Item da Lista 3</li>
+    </ul>
+
+
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+
+</body>
+
+
+</html>

@@ -1,0 +1,130 @@
+body {
+    background: #f0f0f0;
+}
+
+span {
+    font-family: Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+#paragrafo2 {
+	text-align: center;
+}
+
+ul li {
+    line-height: 40px;
+    list-style-type: square;    
+}
+
+ol li {
+	list-style-type: lower-greek;
+}
+
+#mafagafo {
+    margin: 100px;
+    padding: 10px;
+    float: right;
+    border: 5px solid black;
+}
+
+#lista li {
+    background-color: antiquewhite;
+    /*
+    margin-right: 50px;
+    padding: 10px 10px 20px 150px;
+    */
+    border: 3px solid salmon;
+	display: inline;
+    text-align: center;
+}
+
+#lista li a {
+    padding: 5px;
+}
+
+#lista li a:hover {
+    background:lightcyan;
+    border-bottom: dotted 2px #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: dotted 2px #ff3333;
+}
+
+a:hover, a:visited {
+	background: #226622;
+}
+
+
+.fimdesemana {
+    color: #00ff00;
+}
+
+#quinta, #sexta {
+    font-family: serif;
+    color: #ff0000;
+}
+
+div span {
+    font-weight: bold;
+}
+
+#noticias p {
+    font-weight: bold;
+}
+
+#destaque p {
+    background-color: #e0e0e0;    
+}
+
+#destaque #novelas {
+    background-color: #0044ff;
+}
+
+#destaque #esportes {
+    background-color: #00ff44;
+}
+
+
+input {
+	display: block;
+	border: solid 1px black;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+input:focus {
+	background: #ffffcc;
+	border: solid 1px orange;
+}
+
+.erro {
+    border: solid 1px red;
+}
+
