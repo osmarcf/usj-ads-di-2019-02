@@ -128,3 +128,84 @@ input:focus {
     border: solid 1px red;
 }
 
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0px auto;
+}
+
+thead {
+	background: #bbbbbb;
+
+}
+
+tr {
+	border-bottom: 1px solid #cccccc;
+	height: 25px;
+}
+
+tbody tr:hover {
+	background: #4488ee;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	text-align: center;
+}
+
+legend {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+fieldset {
+	line-height: 20px;
+	padding: 10px;
+	border: 5px solid #aaFFaa;
+	width: 300px;
+}
+
+
+select {
+	background: #f9ffc4;
+	display: block;	
+	border: 1px solid black;
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	border: 1px solid black;
+	font-family: monospace;
+	display: block;
+	margin: 0px auto 20px auto;
+	/*
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+
+input[type=reset] {
+	background: #ffff00;
+	color: #000000;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 50px;
+	float: left;
+}
+
+input[type=submit] {
+	background: #00ff00;
+	color: #000000;
+	border-radius: 25px;
+	display: inline;
+	margin: 0 50px;
+	float: right;
+}
